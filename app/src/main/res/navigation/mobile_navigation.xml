@@ -57,5 +57,10 @@
         android:name="com.example.internshipdemo4.ui.appointments.AppointmentsFragment"
         android:label="Appointments"
         tools:layout="@layout/fragment_appointments" />
+    <fragment
+        android:id="@+id/nav_becomevolunteer"
+        android:name="com.example.internshipdemo4.ui.becomevolunteer.BecomevolunteerFragment"
+        android:label="Become Volunteer"
+        tools:layout="@layout/fragment_becomevolunteer" />
 
 </navigation>
