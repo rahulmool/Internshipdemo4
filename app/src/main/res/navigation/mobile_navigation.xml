@@ -52,5 +52,10 @@
         android:name="com.example.internshipdemo4.ui.social.SocialFragment"
         android:label="Social"
         tools:layout="@layout/fragment_social" />
+    <fragment
+        android:id="@+id/nav_appointments"
+        android:name="com.example.internshipdemo4.ui.appointments.AppointmentsFragment"
+        android:label="Appointments"
+        tools:layout="@layout/fragment_appointments" />
 
 </navigation>
