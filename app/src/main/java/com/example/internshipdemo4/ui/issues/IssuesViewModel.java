@@ -9,7 +9,7 @@ public class IssuesViewModel extends ViewModel {
 
     public IssuesViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("This is Issues fragment");
     }
 
     public LiveData<String> getText() {

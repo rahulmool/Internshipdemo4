@@ -1,4 +1,4 @@
-package com.example.internshipdemo4.ui.myvision;
+package com.example.internshipdemo4.ui.social;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,16 +14,16 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.internshipdemo4.R;
 
-public class MyvisionFragement extends Fragment{
-    private MyvisionViewModel myvisionViewModel;
+public class SocialFragment extends Fragment{
+    private SocialViewModel socialViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        myvisionViewModel =
-                ViewModelProviders.of(this).get(MyvisionViewModel.class);
-        View root = inflater.inflate(R.layout.fragement_myvision, container, false);
+        socialViewModel =
+                ViewModelProviders.of(this).get(SocialViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_social, container, false);
         final TextView textView = root.findViewById(R.id.text_gallery);
-        myvisionViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        socialViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

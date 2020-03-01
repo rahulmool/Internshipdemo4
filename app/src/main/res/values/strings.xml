@@ -13,4 +13,8 @@
 
     <string name="home_second">Home Second</string>
     <string name="my_journey">My Journey</string>
+    <string name="my_vision">My Vision</string>
+    <string name="issues">Issues</string>
+    <string name="events">Events</string>
+    <string name="social">Social</string>
 </resources>

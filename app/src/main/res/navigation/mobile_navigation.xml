@@ -13,11 +13,6 @@
 
     </fragment>
 
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.internshipdemo4.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
@@ -34,18 +29,28 @@
     <fragment
         android:id="@+id/nav_myvision"
         android:name="com.example.internshipdemo4.ui.myvision.MyvisionFragement"
-        android:label="My Journey"
+        android:label="My Vision"
         tools:layout="@layout/fragement_myvision" />
 
     <fragment
         android:id="@+id/nav_issues"
         android:name="com.example.internshipdemo4.ui.issues.IssuesFragment"
-        android:label="My Journey"
+        android:label="Issues"
         tools:layout="@layout/fragment_issues" />
     <fragment
         android:id="@+id/nav_events"
         android:name="com.example.internshipdemo4.ui.events.EventsFragment"
         android:label="Events"
         tools:layout="@layout/fragment_events" />
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.internshipdemo4.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_social"
+        android:name="com.example.internshipdemo4.ui.social.SocialFragment"
+        android:label="Social"
+        tools:layout="@layout/fragment_social" />
 
 </navigation>

@@ -1,19 +1,21 @@
-package com.example.internshipdemo4.ui.myvision;
+package com.example.internshipdemo4.ui.social;
+
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class MyvisionViewModel extends ViewModel{
+public class SocialViewModel extends ViewModel{
 
     private MutableLiveData<String> mText;
 
-    public MyvisionViewModel() {
+    public SocialViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is myvision fragment");
+        mText.setValue("This is Social fragment");
     }
 
     public LiveData<String> getText() {
         return mText;
     }
 }
+
