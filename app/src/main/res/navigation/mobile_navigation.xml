@@ -62,5 +62,9 @@
         android:name="com.example.internshipdemo4.ui.becomevolunteer.BecomevolunteerFragment"
         android:label="Become Volunteer"
         tools:layout="@layout/fragment_becomevolunteer" />
-
+    <fragment
+        android:id="@+id/nav_shareyourdetails"
+        android:name="com.example.internshipdemo4.ui.shareyourdetails.ShareyourdetailsFragment"
+        android:label="Share your details"
+        tools:layout="@layout/fragment_shareyourdetails" />
 </navigation>
