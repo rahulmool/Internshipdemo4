@@ -20,5 +20,9 @@
             android:id="@+id/nav_myjourney"
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/my_journey"/>
+        <item
+            android:id="@+id/nav_myvision"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My Vision"/>
     </group>
 </menu>

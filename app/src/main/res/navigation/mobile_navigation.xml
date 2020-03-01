@@ -30,4 +30,10 @@
         android:name="com.example.internshipdemo4.ui.myjourney.MyjourneyFragment"
         android:label="My Journey"
         tools:layout="@layout/fragment_myjourney" />
+
+    <fragment
+        android:id="@+id/nav_myvision"
+        android:name="com.example.internshipdemo4.ui.myvision.MyvisionFragement"
+        android:label="My Journey"
+        tools:layout="@layout/fragement_myvision" />
 </navigation>
