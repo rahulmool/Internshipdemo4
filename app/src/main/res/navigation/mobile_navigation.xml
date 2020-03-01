@@ -67,4 +67,9 @@
         android:name="com.example.internshipdemo4.ui.shareyourdetails.ShareyourdetailsFragment"
         android:label="Share your details"
         tools:layout="@layout/fragment_shareyourdetails" />
+    <fragment
+        android:id="@+id/nav_myprofile"
+        android:name="com.example.internshipdemo4.ui.myprofile.MyprofileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_myprofile" />
 </navigation>
