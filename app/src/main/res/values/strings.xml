@@ -23,4 +23,8 @@
     <string name="share_your_details">Share your details</string>
     <string name="my_proflie">My proflie</string>
     <string name="login">Login</string>
+
+
+    <string name="profession" translatable="false">Profession :</string>
+
 </resources>

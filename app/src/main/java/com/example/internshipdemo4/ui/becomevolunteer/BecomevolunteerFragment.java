@@ -21,14 +21,8 @@ public class BecomevolunteerFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         becomevolunteerViewModel =
                 ViewModelProviders.of(this).get(BecomevolunteerViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_appointments, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
-        becomevolunteerViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+        View root = inflater.inflate(R.layout.fragment_becomevolunteer, container, false);
+
         return root;
     }
 }

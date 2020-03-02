@@ -6,17 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".ui.becomevolunteer.BecomevolunteerFragment">
 
-    <TextView
-        android:id="@+id/text_gallery"
+    <com.rengwuxian.materialedittext.MaterialEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:hint="Basic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelAlwaysShown="false"
+        app:met_floatingLabelAnimating="true"
+        app:met_floatingLabelText="something" />
 </androidx.constraintlayout.widget.ConstraintLayout>
