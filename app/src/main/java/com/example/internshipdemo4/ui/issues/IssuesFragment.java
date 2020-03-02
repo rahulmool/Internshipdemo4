@@ -22,13 +22,7 @@ public class IssuesFragment extends Fragment {
         issuesViewModel =
                 ViewModelProviders.of(this).get(IssuesViewModel.class);
         View root = inflater.inflate(R.layout.fragment_issues, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
-        issuesViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+
         return root;
     }
 
