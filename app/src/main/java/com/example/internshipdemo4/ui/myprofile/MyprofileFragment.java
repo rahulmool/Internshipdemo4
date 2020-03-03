@@ -20,14 +20,8 @@ public class MyprofileFragment extends Fragment  {
                              ViewGroup container, Bundle savedInstanceState) {
         myprofileViewModel =
                 ViewModelProviders.of(this).get(MyprofileViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_myjourney, container, false);
-        final TextView textView = root.findViewById(R.id.text_home);
-        myprofileViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+        View root = inflater.inflate(R.layout.fragment_myprofile, container, false);
+
         return root;
     }
 }

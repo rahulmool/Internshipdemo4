@@ -26,5 +26,26 @@
 
 
     <string name="profession" translatable="false">Profession :</string>
+    <string name="first_name" translatable="false">First Name</string>
+    <string name="middle_name" translatable="false">Middle Name</string>
+    <string name="last_name" translatable="false">Last Name</string>
+    <string name="gender" translatable="false">Gender :</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="date_of_appointment">Date Of Appointment</string>
+    <string name="bloodgrp" translatable="false">BloodGrp :</string>
+    <string name="phone_no" translatable="false">Phone No.</string>
+    <string name="email" translatable="false">Email</string>
+
+    <string name="address_line_1">Address Line 1</string>
+    <string name="address_line_2">Address Line 2</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="family_member_1">Family Member 1</string>
+    <string name="name">Name</string>
+    <string name="relation">Relation</string>
+    <string name="string_date_of_birth">DOB</string>
+    <string name="add_new_family_member">Add New Family Member</string>
+    <string name="submit">Submit</string>
 
 </resources>

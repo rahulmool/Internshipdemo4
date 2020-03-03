@@ -21,14 +21,8 @@ public class ShareyourdetailsFragment extends Fragment{
                              ViewGroup container, Bundle savedInstanceState) {
         shareyourdetailsViewModels =
                 ViewModelProviders.of(this).get(ShareyourdetailsViewModels.class);
-        View root = inflater.inflate(R.layout.fragement_myvision, container, false);
-        final TextView textView = root.findViewById(R.id.text_gallery);
-        shareyourdetailsViewModels.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+        View root = inflater.inflate(R.layout.fragment_shareyourdetails, container, false);
+
         return root;
     }
 }
